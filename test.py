@@ -96,10 +96,23 @@ import csv
 # x[1:-1,1:-1] = 0
 # print(x)
 
-x = np.arange(31)
+# Create a 8x8 matrix and fill it with a checkerboard pattern
+# x = np.ones((3,3))
+# x = np.zeros((8,8),dtype=int)
+# x[1::2,::2] = 1
+# x[::2,1::2] = 1
+# print(x)
 
-
-
+# Multiply a 5x3 matrix by a 3x2 matrix (real matrix product)Â
+# x = np.random.random((5,3))
+# print("First array:")
+# print(x)
+# y = np.random.random((3,2))
+# print("Second array:")
+# print(y)
+# z = np.dot(x, y)
+# print("Dot product of two arrays:")
+# print(z)
 
 
 
